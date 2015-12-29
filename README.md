@@ -2,7 +2,7 @@
 
 ***This Citizen Service Request repo has been replaced by the [Crowdsource Reporting repo](https://github.com/Esri/crowdsource-reporter), applications built from this repo are in mature support***
 
-***Checkout the [Citizen Problem Reporter solution](http://solutions.arcgis.com/local-government/help/citizen-problem-reporter/)***
+***Check out the [Citizen Problem Reporter solution](http://solutions.arcgis.com/local-government/help/citizen-problem-reporter/)***
 
 Citizen Service Request is a configuration of ArcGIS and a JavaScript application that allows citizens to submit requests for service in their community. It is a single application that can be deployed by local governments and used by citizens on a desktop PC, mobile phone, or tablet device.
 
