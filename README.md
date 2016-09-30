@@ -6,9 +6,7 @@
 
 Citizen Service Request is a configuration of ArcGIS and a JavaScript application that allows citizens to submit requests for service in their community. It is a single application that can be deployed by local governments and used by citizens on a desktop PC, mobile phone, or tablet device.
 
-[Try the Citizen Service Request application](http://links.esri.com/localgovernment/tryit/CitizenServiceRequest/)
-
-[![Image of Citizen Service Request application](citizen-service-request.png "Citizen Service Request application")](http://links.esri.com/localgovernment/tryit/CitizenServiceRequest/)
+[![Image of Citizen Service Request application](citizen-service-request.png "Citizen Service Request application")]
 
 ## Features
 
@@ -19,14 +17,12 @@ Citizen Service Request is a configuration of ArcGIS and a JavaScript applicatio
 
 ## Requirements
 
-**Start now using Esri-supplied sample services**
+**Start now using your own services then updating the configuration files**
 
-You can start using the application now by setting it up on a web server running Microsoft Internet Information Services (IIS) and using sample services supplied by Esri.
+For more information on requirements and publication steps, and app configuration see [Citizen Service Request](http://links.esri.com/localgovernment/help/10.2/CitizenServiceRequest) help.
+
+Once you have completed these steps, you can start using the application now by setting it up on a web server running Microsoft Internet Information Services (IIS) and using sample services supplied by Esri.
 You'll need to convert to an application in IIS and use the ASP .NET 4.0. application pool.
-
-**Start now using your own services**
-
-For more information on requirements and publication steps, see [Citizen Service Request](http://links.esri.com/localgovernment/help/10.2/CitizenServiceRequest) help.
 
 ## Resources
 
