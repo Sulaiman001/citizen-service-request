@@ -70,13 +70,13 @@ dojo.declare("js.config", null, {
         Key: "parcelMap",
         ThumbnailSource: "images/parcelmap.png",
         Name: "Streets",
-        MapURL: "http://tryitlive.arcgis.com/arcgis/rest/services/GeneralPurpose/MapServer"
+        MapURL: "http://yourserver/arcgis/rest/services/GeneralPurpose/MapServer"
 
     }, {
         Key: "hybridMap",
         ThumbnailSource: "images/imageryhybrid.png",
         Name: "Imagery",
-        MapURL: "http://tryitlive.arcgis.com/arcgis/rest/services/ImageryHybrid/MapServer"
+        MapURL: "http://yourserver/arcgis/rest/services/ImageryHybrid/MapServer"
     }],
     //This section allows you to add a feature or map service layer, it must be an layer, not a service
     //use the following format {URL: ""},{URL: ""},...
@@ -95,14 +95,14 @@ dojo.declare("js.config", null, {
 
     OperationalLayers: {
         //URL used for doing query task on the ServiceRequest layer
-        ServiceRequestLayerURL: "http://services.arcgis.com/b6gLrKHqgkQb393u/arcgis/rest/services/ServiceRequestTryItLive/FeatureServer/0",
+        ServiceRequestLayerURL: "http://yourserver/arcgis/rest/services/ServiceRequest/FeatureServer/0",
         //Set the primary key attribute for servicerequest
         RequestId: "${REQUESTID}",
 
-        ServiceRequestMobileLayerURL: "http://services.arcgis.com/b6gLrKHqgkQb393u/arcgis/rest/services/ServiceRequestTryItLive/FeatureServer/0",
+        ServiceRequestMobileLayerURL: "http://yourserver/arcgis/rest/services/ServiceRequest/FeatureServer/0",
 
         //URL used for doing query task on the comments layer
-        ServiceRequestCommentsLayerURL: "http://services.arcgis.com/b6gLrKHqgkQb393u/arcgis/rest/services/ServiceRequestTryItLive/FeatureServer/1",
+        ServiceRequestCommentsLayerURL: "http://yourserver/arcgis/rest/services/ServiceRequest/FeatureServer/1",
         //Set the primary key attribute for the comments
         CommentId: "${REQUESTID}"
 
